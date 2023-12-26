@@ -1,0 +1,23 @@
+.card-img{
+    position: relative;
+}
+
+.mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+@media (max-width: 575.98px) { 
+    .card-img{
+        height: 400px;
+    }
+}
+@media (max-width: 1280.98px) { 
+    .card-img{
+        height: 450px;
+    }
+}
