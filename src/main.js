@@ -7,6 +7,7 @@ import router from './router/route'
 
 let appication = createApp(App)
 
+
 appication.use(router)
 
 appication.mount('#app')
